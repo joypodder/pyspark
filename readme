@@ -1,0 +1,53 @@
+Pyspark ipynb file containing:
+1. Basic Spark Operations:
+Creating a SparkSession and SparkContext.
+Creating DataFrames from lists and CSV files.
+Performing basic DataFrame operations like show, printSchema, and withColumnRenamed.
+
+2. DataFrame Transformations:
+Selecting columns using select and aliasing them with alias.
+Filtering data using filter and conditions.
+Adding and modifying columns using withColumn, lit, and regexp_replace.
+Type casting using cast.
+Sorting data using sort or orderBy.
+Limiting the number of rows using limit.
+Dropping columns using drop.
+Dropping duplicate rows using dropDuplicates.
+Combining DataFrames using union and unionByName.
+
+3. String and Date Functions:
+Using string functions like lower.
+Using date functions like current_date, date_add, datediff, and date_format.
+
+4. Handling Null Values:
+Dropping rows with null values using dropna.
+Filling null values using fillna.
+
+5. Splitting and Indexing:
+Splitting columns using split.
+Accessing elements within arrays using indexing.
+
+6. Explode Function:
+Expanding arrays into multiple rows using explode.
+
+7. Array Contains:
+Checking if an array contains a specific element using array_contains.
+
+8. Group By and Aggregation:
+Grouping data using groupBy and performing aggregations like sum and collect_list.
+
+9. Pivot:
+Reshaping data using pivot.
+
+10. When Otherwise:
+Creating conditional columns using when and otherwise.
+
+11. Joins:
+Joining DataFrames using join with different join types.
+
+12. Window Functions:
+Using window functions like row_number, rank, dense_rank, and cumulative sums.
+
+13. Spark SQL:
+Creating temporary views using createOrReplaceTempView.
+Querying data using SQL syntax.
